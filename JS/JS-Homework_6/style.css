@@ -1,0 +1,163 @@
+form {
+	margin: 0 auto;
+	margin-top: 2%;
+	width: 500px;
+	background-color: gainsboro;
+}
+::-webkit-input-placeholder {
+	color: black;
+}
+
+form .window {
+	width: 477px;
+	height: 4vh;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+input[type="text"] {
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid rgb(138, 138, 138);
+	font-size: 25px;
+}
+
+form .btn_block {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-gap: 10px;
+}
+input[type="button"] {
+	outline: none;
+	border-radius: 5px;
+	background-color: rgb(185, 200, 241);
+	cursor: pointer;
+	font-size: 25px;
+}
+form .btn_block .tg {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+form .btn_block .ctg {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+form .btn_block .radians {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+form .btn_block .remains {
+	grid-column: 4/5;
+	grid-row: 1/2;
+}
+form .btn_block .clear {
+	grid-column: 5/6;
+	grid-row: 1/2;
+}
+form .btn_block .sin {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+form .btn_block .cos {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+form .btn_block .degrees {
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+form .btn_block .divided_by {
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+form .btn_block .degree {
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
+form .btn_block .seven {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+form .btn_block .eigth {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+form .btn_block .nine {
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+form .btn_block .times {
+	grid-column: 4/5;
+	grid-row: 3/4;
+}
+form .btn_block .factorial {
+	grid-column: 5/6;
+	grid-row: 3/4;
+}
+form .btn_block .four {
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+form .btn_block .five {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+form .btn_block .six {
+	grid-column: 3/4;
+	grid-row: 4/5;
+}
+form .btn_block .minus {
+	grid-column: 4/5;
+	grid-row: 4/5;
+}
+form .btn_block .one {
+	grid-column: 1/2;
+	grid-row: 5/6;
+}
+form .btn_block .two {
+	grid-column: 2/3;
+	grid-row: 5/6;
+}
+form .btn_block .three {
+	grid-column: 3/4;
+	grid-row: 5/6;
+}
+form .btn_block .plus {
+	grid-column: 4/5;
+	grid-row: 5/6;
+}
+form .btn_block .equals_to {
+	grid-column: 5/6;
+	grid-row: 4/6;
+}
+form .btn_block .zero {
+	grid-column: 1/3;
+	grid-row: 6/7;
+}
+form .btn_block .point {
+	grid-column: 3/4;
+	grid-row: 6/7;
+}
+form .btn_block .history {
+	grid-column: 4/6;
+	grid-row: 6/7;
+}
+ol {
+	display: none;
+	border: 1px solid rgb(138, 138, 138);
+	border-radius: 5px;
+	background-color: #fff;
+}
+p {
+	display: inline-block;
+	width: 40%;
+	font-size: 20px;
+	margin: 0;
+}
+li {
+	margin: 10px 0;
+}
+
+

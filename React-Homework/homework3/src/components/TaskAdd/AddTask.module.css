@@ -1,0 +1,36 @@
+.block_add_task {
+  display: flex;
+  justify-content: space-between;
+}
+.block_add_task input {
+  width: 438px;
+  outline: none;
+  font-size: 16px;
+  color: rgb(40, 40, 40);
+  padding: 5px;
+  border: 2px solid rgb(40, 40, 40);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.block_add_task input::placeholder {
+  color: rgb(40, 40, 40);
+}
+.block_add_task input:focus {
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+}
+.block_add_task button {
+  margin-left: 5px;
+  padding: 8px;
+  outline: none;
+  font-size: 15px;
+  color: rgb(40, 40, 40);
+  background-color: transparent;
+  border: 2px solid rgb(40, 40, 40);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.block_add_task button:hover {
+  color: #fff;
+  background-color: rgb(40, 40, 40);
+}

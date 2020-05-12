@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS study</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <section id="todo-app">
+        <h1>Список задач</h1>
+        <input type="text" placeholder="Введите новую задачу"> <!-- onkeyup="this.value=this.value.replace(/\s+/gi,'')" -->
+        <ul id="spisok">
+        </ul>
+        <div class="but">
+            <button id="save">Сохранить все</button>
+            <button id="clear">Очистить все</button>
+            <button id="myName">Информация</button>
+        </div>
+        <div id="window" class="window" style="display: none;">
+            <i id="js" class="fab fa-js-square"></i>
+            <span class="text">разработчик - Михайлов Пётр</span>
+            <i id="clouse" class="fas fa-times" onclick="clouseWindow()"></i>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

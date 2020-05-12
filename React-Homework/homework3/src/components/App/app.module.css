@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(218, 223, 224);
+}
+.container_todo {
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+  margin: 0 auto;
+}
+
+.block_search {
+  display: flex;
+  justify-content: space-between;
+}

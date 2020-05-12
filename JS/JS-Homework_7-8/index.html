@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+  <div class="hed_server"><h4>Данные с сервера</h4></div>
+  <div id="server_info" class="block_server"></div>
+    <div id="information" class="information">
+        <h1>Все авто</h1>
+        <hr>
+        <form>
+          <!-- <input type="button" id="newBanditButton" class="buttons" value="Добавить новое авто"> -->
+        </form>
+        
+      </div>
+      <br>
+    
+      <div id="all_info" class="all_info">
+        <h2>Подробная информация</h2>
+        <form>
+        </form>
+      </div>
+      <br>
+      
+
+
+      <section id="create_person" class="create_person">
+        <h2>Создаем машину</h2>
+        <form>
+          <div class="type_car">
+            <p id="p_type">Выберите тип авто</p>
+            <select id="select_car" class="select_car">
+              <option name="option_car" id="p_type">Тип авто</option>
+              <option name="option_car" class="pass" value="pass">Пассажирское</option>
+              <option name="option_car" class="sport" value="sport">Спортивное</option>
+              <option name="option_car" class="oper" value="oper">Oперативное</option>
+            </select>
+          </div>
+          <div id="block" class="block">
+            <div class="block1">
+              <div class="name_car">
+                <p>Номер авто</p>
+                <input type="text" class="input_text" id="textFirstName" value="" required ><br><br>
+              </div>
+              <div class="type_body">
+                <p>Выберите тип кузова</p>
+                <select id="select_body" class="select_body">
+                  <option name="option_body" value="body1">Седан</option>
+                  <option name="option_body" value="body2">Пикап</option>
+                  <option name="option_body" value="body3">Внедорожник</option>
+                  <option name="option_body" value="body4">Купе</option>
+                  <option name="option_body" value="body5">Лимузин</option>
+                </select>
+              </div>
+              <div class="type_wheel">
+                <p>Выберите тип резины</p>
+                <select id="select_wheel" class="select_wheel">
+                  <option value="wheel3">Всесезонная</option>
+                  <option value="wheel1">Зимняя</option>
+                  <option value="wheel2">Летняя</option>
+                  <option value="wheel4">Низкопрофильная</option>
+                  <option value="wheel5">Беспрокольная</option>
+                  <option value="wheel6">Внедорожная</option>
+                </select>
+              </div>
+              <div class="type_engine">
+                <p>Выберите тип двигателя</p>
+                <select id="select_engine" class="select_engine">
+                  <option value="engine1">Бензиновый</option>
+                  <option value="engine2">Дизельный</option>
+                  <option value="engine3">Газовый</option>
+                </select>
+              </div>
+              <div class="type_suspension">
+                <p>Выберите тип подвески</p>
+                <select id="select_suspension" class="select_suspension">
+                  <option value="suspension1">Стандартная подвеска</option>
+                  <option value="suspension2">Низкая подвеска</option>
+                  <option value="suspension3">Усиленная подвеска</option>
+                </select>
+              </div>
+              <div class="type_transmission">
+                <p>Выберите тип коробки</p>
+                <select id="select_transmission" class="select_transmission">
+                  <option value="transmission1">Механическая</option>
+                  <option value="transmission2">Полуавтоматическая</option>
+                  <option value="transmission3">Автоматическая</option>
+                </select>
+              </div>
+            </div>
+            <div id="block2" class="block2">
+              <h3>Дополнение к сборке</h3>
+              <div id="item1">
+              <div class="block_trunk">
+                <p>Выберите богажника на крышу</p>
+                <select id="select_trunk" class="select_trunk">
+                  <option value="trunk1">Средний</option>
+                  <option value="trunk2">Большой</option>
+                  <option value="trunk3">Маленький</option>
+                </select>
+              </div>
+              <div class="block_armchair">
+                <p>Выберите детское кресло</p>
+                <select id="select_armchair" class="select_armchair">
+                  <option value="armchair1">0—1 год</option>
+                  <option value="armchair2">1—4 года</option>
+                  <option value="armchair3">3—7 лет</option>
+                </select>
+              </div>
+            </div>
+            <div id="item2">
+              <div class="block_nitrogen">
+                <p>Турбина</p>
+                <select id="select_nitrogen" class="select_nitrogen">
+                 <option value="nitrogen1">1.0</option>
+                 <option value="nitrogen2">2.0</option>
+                 <option value="nitrogen3">3.0</option>
+                </select>
+                </div>
+                <div class="block_bodyKit">
+                <p>Выберите вид обвеса</p>
+                <select id="select_bodyKit" class="select_bodyKit">
+                 <option value="bodyKit1">clasic</option>
+                 <option value="bodyKit2">sport</option>
+                 <option value="bodyKit3">super-sport</option>
+                </select>
+                </div>
+            </div>
+            <div id="item3">
+              <div class="block_flashers">
+                <p>Выберите тип мигалки</p>
+                <select id="select_flashers" class="select_flashers">
+                 <option value="flashers1">Синия</option>
+                 <option value="flashers2">Красная</option>
+                 <option value="flashers3">Желтая</option>
+                </select>
+                </div>
+                <div class="block_loudspeaker">
+                <p>Громкоговоритель</p>
+                <select id="select_loudspeaker" class="select_loudspeaker">
+                 <option value="loudspeaker1">1.0</option>
+                 <option value="loudspeaker2">2.0</option>
+                 <option value="loudspeaker3">3.0</option>
+                </select>
+                </div>
+            </div>
+            </div>
+          </div>
+          <input type="button" id="createPerson" class="buttons" value="Добавить новое авто">
+          <input type="button" id="mainMenu" class="buttons" value="Вернуться ко всем авто">
+        </form>
+      </section>
+      </div>
+
+    <script src="./js/car.js"></script>
+    <script src="./js/oper.js"></script>
+    <script src="./js/sport.js"></script>
+    <script src="./js/pass.js"></script>
+    <script src="./js/func.js"></script>
+</body>
+
+</html>

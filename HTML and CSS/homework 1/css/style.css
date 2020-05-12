@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    color: #ffa500;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text1 {
+    color: #3b5a09;
+    font-size: 18px;
+    padding: 3px;
+    font-family: Calibri;
+}
+
+.text1 span {
+    font-weight: bolder;
+    color: #243803;
+}
+
+.text2 {
+    color: #391166;
+    font-size: 16px;
+    padding: 3px;
+    font-family: Arial;
+}
+
+.text2 span {
+    font-weight: bolder;
+    color: #250946;
+}
+
+.text3 {
+    color: #4d121a;
+    font-size: 14px;
+    padding: 3px;
+    font-family: Arial;
+}
+
+.text3 span {
+    font-weight: bolder;
+    color: #410a11;
+}
+
+.h2 {
+    text-align: left;
+}

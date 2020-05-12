@@ -1,0 +1,23 @@
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.app_header h1 {
+  margin: 0px;
+  align-self: center;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(40, 40, 40);
+}
+
+.app_header strong {
+  margin-top: 20px;
+  align-self: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(119, 119, 119);
+}

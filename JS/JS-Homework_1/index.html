@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS study</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<!-------------------------------------- BODY ------------------------------------------>
+
+<body>
+    <section class="container" id="block1" style="display: flex;">
+        <div class="item" id="item1" onclick="window.open('https://ormedia.by/')">
+            <p>Конпка<br>1</p>
+        </div>
+        <div class="item" id="item2" onclick="addStyle()">
+            <p>Конпка<br>2</p>
+        </div>
+        <div class="item" id="item3" onclick="addBlock()">
+            <p>Конпка<br>3</p>
+        </div>
+    </section>
+    <section class="container_none" id="block2">
+        <header>Шапка</header>
+        <div class="containers">
+            <div class="main">
+                Основной контейнер<br><br><br><br>
+                <h1>Макет на flexbox</h1>
+            </div>
+            <nav>Меню</nav>
+            <div class="sidebar">Сайдбар</div>
+        </div>
+        <footer>Подвал</footer>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

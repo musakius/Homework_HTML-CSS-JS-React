@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(218, 223, 224);
+}
+h1 {
+    margin: 0px;
+    align-self: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+strong{
+    margin-top: 20px;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+.container_todo {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    margin: 0 auto;
+}
+.container_todo .main_text{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.container_todo .block_search{
+    display: flex;
+    justify-content: space-between;
+}
+.container_todo .block_search input,
+.container_todo .block_add_task input{
+    width: 320px;
+    outline: none;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+    padding: 5px;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 4px;
+    background-color: transparent;
+}
+.container_todo .block_search input::placeholder,
+.container_todo .block_add_task input::placeholder{
+    color: rgb(40, 40, 40);
+}
+.container_todo .block_search input:focus,
+.container_todo .block_add_task input:focus{
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+}
+.container_todo .block_search div button,
+.container_todo .block_add_task button{
+    margin-left: 5px;
+    padding: 8px;
+    outline: none;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+    background-color: transparent;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container_todo .block_search div button:hover,
+.container_todo .block_add_task button:hover{
+    color: #fff;
+    background-color: rgb(40, 40, 40);
+}
+
+.container_todo ul {
+    padding: 0px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 5px;
+}
+.container_todo ul li:first-child{
+    border: none;
+}
+.container_todo ul li {
+    display: flex;
+    padding: 8px 8px 8px 24px;
+    border-top: 1px solid rgb(40, 40, 40);
+}
+.container_todo ul li p{
+    width: 400px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.container_todo ul li button {
+    outline: none;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(113, 170, 113);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container_todo ul li button:hover {
+    background-color: rgb(255, 255, 255);
+}
+.container_todo ul li .removeItem {
+    margin-right: 5px;
+    border: 1px solid rgb(226, 113, 113);
+}
+.container_todo ul li button i {
+    font-size: 16px;
+    color: rgb(113, 170, 113);
+}
+.container_todo ul li .removeItem i {
+    font-size: 16px;
+    color: rgb(226, 113, 113);
+}
+.container_todo .block_add_task{
+    display: flex;
+    justify-content: space-between;
+}
+.container_todo .block_add_task input{
+    width: 438px;
+}
+
+

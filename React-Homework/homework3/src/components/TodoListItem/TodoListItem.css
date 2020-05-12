@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 24px;
+  border-top: 1px solid rgb(40, 40, 40);
+}
+
+.item:first-child {
+  border: none;
+}
+
+.item .todo_list {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+.item .todo_list.done {
+  text-decoration: line-through;
+}
+.item button {
+  outline: none;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(113, 170, 113);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.item button:hover {
+  background-color: rgb(113, 170, 113);
+}
+.item .removeItem {
+  margin-right: 5px;
+  border: 1px solid rgb(226, 113, 113);
+}
+.item .removeItem:hover {
+  background-color: rgb(226, 113, 113);
+}
+.item button i {
+  font-size: 16px;
+  color: rgb(113, 170, 113);
+}
+.item .removeItem i {
+  font-size: 16px;
+  color: rgb(226, 113, 113);
+}
+.item button:hover i {
+  color: rgb(255, 255, 255);
+}

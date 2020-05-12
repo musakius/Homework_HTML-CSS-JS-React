@@ -1,0 +1,22 @@
+.list_todo {
+  padding: 0px;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(40, 40, 40);
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 24px;
+  border-top: 1px solid rgb(40, 40, 40);
+}
+
+.todo_list {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}

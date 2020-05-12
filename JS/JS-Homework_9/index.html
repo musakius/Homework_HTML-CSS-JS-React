@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="photo" id="player_deezer">
+        <div id="dz-root"></div>
+        <div class="search">
+            <input type="text" class="text" id="text" placeholder="Введите название трека" />
+            <input class="but" id="but" type="button" value="Поиск" />
+            <input class="but_add" id="but_add" type="button" value="Добавить песню" />
+        </div>
+        <div id="player" style="width:100%;" align="center"></div>
+        <ul class="spisok" id="spisok"></ul>
+    </section>
+    <section class="authorization" id="authorization">
+        <div class="block_auhor">
+        <input type="text" class="login" id="login" placeholder="Логин" />
+        <input type="text" class="password" id="password" placeholder="Пароль" />
+        <div>
+        <input class="but_player" id="but_player" type="button" value="Войти" />
+        <input class="but_deez" id="but_deez" type="button" value="Вернуться к deezer" />
+        </div>
+        </div>
+    </section>
+    <section class="controles" id="player_user">
+        <div class="player_2">
+            <audio></audio>
+            <div class="progress">
+                <progress class="progress1" id="progress" value="0" min="0"></progress>
+            </div>
+            <div class="block_play">
+                <i class="fas fa-play" id="play"></i>
+                <div class="block_volume">
+                    <i id="volume_i" class="fas fa-volume-down"></i>
+                    <progress id="progress2" class="progress2" value="100" min="0"></progress>
+                </div>
+            </div>
+            <span id="time2" class="time2">00:00</span>
+        </div>
+        <div class="block_file">
+            <input class="file" id="file" type="file" accept="audio/*" ondrop="drop(ev)" ondragover="allowDrop(ev)" />
+        </div>
+    </section>
+    <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <i class="fas fa-volume-down" onclick="setMinusVolume()"></i>
+<i class="fas fa-volume-up" onclick="setPlusVolume()"></i> -->
+<!-- <i class="fas fa-play" onclick="playAudio()"></i>
+<i class="fas fa-pause" onclick="pauseAudio()"></i> -->

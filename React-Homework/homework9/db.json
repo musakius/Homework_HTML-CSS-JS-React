@@ -1,0 +1,83 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Luke [TEST DATA]",
+      "gender": "male",
+      "birth_year": "long ago",
+      "eye_color": "dark brown"
+    },
+    {
+      "id": 2,
+      "name": "Person2 [TEST DATA]",
+      "gender": "male",
+      "birth_year": "long ago",
+      "eye_color": "dark brown"
+    },
+    {
+      "id": 3,
+      "name": "TD - 2 [TEST DATA]",
+      "gender": "male",
+      "birth_year": "time ago",
+      "eye_color": "dark blue"
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "name": "Earth [TEST DATA]",
+      "population": "7.530.000.000",
+      "rotation_period": "23 hours 56 seconds",
+      "diameter": "12.742 km"
+    },
+    {
+      "id": 2,
+      "name": "Venus [TEST DATA]",
+      "population": "not known",
+      "rotation_period": "243 days",
+      "diameter": "12.104 km"
+    },
+    {
+      "id": 3,
+      "name": "Mars [TEST DATA]",
+      "population": "not known",
+      "rotation_period": "1000 days",
+      "diameter": "124.104 km"
+    }
+  ],
+  "starships": [
+    {
+      "id": 1,
+      "name": "USS Enterprise [TEST DATA]",
+      "model": "NCC-1701-C",
+      "manufacturer": "Northrop Grumman Shipbuilding",
+      "costInCredits": "not known",
+      "length": "approx 300 meters",
+      "crew": 1000,
+      "passengers": 50,
+      "cargo_capacity": 100
+    },
+    {
+      "id": 2,
+      "name": "MFK Apalon [TEST DATA]",
+      "model": "FTT-2900-Z",
+      "manufacturer": "Northrop Grumman Shipbuilding",
+      "costInCredits": "5000000",
+      "length": "approx 200 meters",
+      "crew": 500,
+      "passengers": 30,
+      "cargo_capacity": 70
+    },
+    {
+      "id": 3,
+      "name": "LKF Cloister [TEST DATA]",
+      "model": "PPY-200-W",
+      "manufacturer": "Northrop Grumman Shipbuilding",
+      "costInCredits": "not known",
+      "length": "approx 600 meters",
+      "crew": 2000,
+      "passengers": 150,
+      "cargo_capacity": 200
+    }
+  ]
+}
